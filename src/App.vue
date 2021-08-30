@@ -1,32 +1,44 @@
 <template>
   <div id="app">
-    <h2>Варианты офисов</h2>
-    <wizard></wizard>
+    <show-cover @incrementStep="incrementStep" v-if="step.current === 0"/>
+    <select-square v-if="step.current === 1"/>
   </div>
 </template>
 
 <script>
-import wizard from "./components/wizard.vue";
+import SelectSquare from './components/select-square.vue';
+import ShowCover from './components/show-cover.vue';
 
 export default {
   name: "App",
   data: function() {
     return {
+      step: {
+        current: 1,
+        min: 0,
+        max: 3
+      }
     }
   },
   components: {
-    wizard,
+    ShowCover,
+    SelectSquare,
+  },
+  methods: {
+    incrementStep: function () {
+      if (this.step.current <= this.step.max) this.step.current++;
+      else return;
+    },
+    decrementStep: function () {
+      if (this.step.current > this.step.min) this.step.current--;
+      else return;
+    },
   }
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    margin: 0;
+  } 
 </style>

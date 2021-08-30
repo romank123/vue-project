@@ -1,0 +1,73 @@
+[{
+        "zoneId": 1,
+        "square": 10,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 12,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "grey paint",
+            "flooring": "light carpet",
+            "ceiling": "light",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "layoutOptions": "1 cabinet and open space",
+            "officePartitions": "plexiglass"
+        }
+    },
+    {
+        "zoneId": 2,
+        "square": 20,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 12,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "grey paint",
+            "flooring": "light carpet",
+            "ceiling": "light",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "layoutOptions": "1 cabinet and open space",
+            "officePartitions": "plexiglass"
+        }
+    },
+    {
+        "zoneId": 3,
+        "square": 30,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 12,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "grey paint",
+            "flooring": "light carpet",
+            "ceiling": "light",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "layoutOptions": "1 cabinet and open space",
+            "officePartitions": "plexiglass"
+        }
+    }
+]
