@@ -1,8 +1,8 @@
 <template>
     <div>
-        <button v-on:click="decrementFloor">Предыдущий</button>
+        <!-- <button v-on:click="decrementFloor">Предыдущий</button> -->
         <span>{{selectedFloor}}</span>
-        <button v-on:click="incrementFloor">Следующий</button>
+        <!-- <button v-on:click="incrementFloor">Следующий</button> -->
         <br>
         <br>
         <floorSheme v-bind:floor-number="selectedFloor"/>
@@ -36,15 +36,15 @@ export default {
       floorSheme
   },
   methods: {
-      decrementFloor: function() {
-          if (this.selectedFloor>1) this.selectedFloor--;
-      },
-      incrementFloor: function() {
-          if (this.selectedFloor<this.maxFloorCount) this.selectedFloor++;
-      },
-      console: function(msg) {
-          console.log(msg)
-      }
+    //   decrementFloor: function() {
+    //       if (this.selectedFloor>1) this.selectedFloor--;
+    //   },
+    //   incrementFloor: function() {
+    //       if (this.selectedFloor<this.maxFloorCount) this.selectedFloor++;
+    //   },
+    //   console: function(msg) {
+    //       console.log(msg)
+    //   }
   }
 }
 </script>
