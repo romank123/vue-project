@@ -6,11 +6,12 @@
       @decrementStep="decrementStep"
       v-if="step.current === 1"
     />
-    <select-zone v-if="step.current === 2"/>
+    <select-floor @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 2"/>
   </div>
 </template>
 
 <script>
+import SelectFloor from './components/select-floor.vue';
 import SelectSquare from "./components/select-square.vue";
 import SelectZone from './components/select-zone.vue';
 import ShowCover from "./components/show-cover.vue";
@@ -22,7 +23,7 @@ export default {
       step: {
         current: 0,
         min: 0,
-        max: 3,
+        max: 2,
       },
     };
   },
@@ -30,10 +31,11 @@ export default {
     ShowCover,
     SelectSquare,
     SelectZone,
+    SelectFloor,
   },
   methods: {
     incrementStep: function () {
-      if (this.step.current <= this.step.max) this.step.current++;
+      if (this.step.current < this.step.max) this.step.current++;
       else return;
     },
     decrementStep: function () {
