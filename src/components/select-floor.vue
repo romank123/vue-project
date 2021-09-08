@@ -2,7 +2,7 @@
   <div class="page-wrapper">
     <h1>Выберете этаж</h1>
     <div class="page">
-      <floorShemeSVG class="floorSheme" ref="floorSheme" v-on:mouseover="checkHover($event)"/>
+      <floorSсhemeSVG class="floorSсheme" ref="floorSсheme" @mouseover="checkHover($event)"/>
       <div class="floor-panel">
         <button @click="incrementFloor">↑</button>
         <input type="number" :value="selectedFloor" min="1" max="21" />
@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import floorShemeSVG from "../assets/svg/svg-floor-sheme.svg";
+import floorSсhemeSVG from "../assets/svg/svg-floor-sheme.svg";
 
 export default {
   name: "selectFloor",
   components: {
-    floorShemeSVG,
+    floorSсhemeSVG,
   },
   data: function () {
     return {
@@ -31,7 +31,7 @@ export default {
     };
   },
   mounted() {
-    this.svgFloorEls = this.$refs.floorSheme.getElementsByClassName("floor");
+    this.svgFloorEls = this.$refs.floorSсheme.getElementsByClassName("floor");
   },
   computed: {
   },
@@ -78,9 +78,7 @@ export default {
 
 <style scoped>
 h1 {
-  /* margin: auto; */
   text-align: center;
-  /* margin-bottom: 1vh; */
 }
 
 .page-wrapper {
@@ -90,11 +88,10 @@ h1 {
 
 .page {
   display: flex;
-  /* width: 80%; */
   height: 70vh;
 }
 
-.floorSheme {
+.floorSсheme {
   margin: auto;
   max-width: 100%;
   max-height: 100%;
