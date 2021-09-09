@@ -4,15 +4,19 @@
     <select-square    @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 1"/>
     <select-building  @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 2"/>
     <select-floor     @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 3"/>
-    <select-zone      @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 4"/>
+    <select-area      @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 4"/>
+    <select-options   @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 5"/>
+    <select-walls   @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 6"/>
   </div>
 </template>
 
 <script>
+import SelectWalls from "./components/select-walls.vue";
+import SelectOptions from "./components/select-options.vue";
 import SelectBuilding from './components/select-building.vue';
 import SelectFloor from './components/select-floor.vue';
 import SelectSquare from "./components/select-square.vue";
-import SelectZone from './components/select-zone.vue';
+import SelectArea from './components/select-area.vue';
 import ShowCover from "./components/show-cover.vue";
 
 export default {
@@ -22,16 +26,18 @@ export default {
       step: {
         current: 0,
         min: 0,
-        max: 4,
+        max: 6,
       },
     };
   },
   components: {
     ShowCover,
     SelectSquare,
-    SelectZone,
+    SelectArea,
     SelectFloor,
     SelectBuilding,
+    SelectOptions,
+    SelectWalls
   },
   methods: {
     incrementStep: function () {

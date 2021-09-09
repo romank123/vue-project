@@ -1,5 +1,8 @@
 <template>
   <div>
+    <h1>Выберете помещение</h1>
+    <h3>Выбранный корпус {{selectedBuilding}}</h3>
+    <h3>Выбранный этаж: {{selectedFloor}}</h3>
     <button v-on:click="decrementFloor">Предыдущий</button>
     <span>{{ selectedFloor }}</span>
     <button v-on:click="incrementFloor">Следующий</button>

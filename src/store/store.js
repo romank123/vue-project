@@ -8,8 +8,9 @@ export default new Vuex.Store({
     state: {
         sourceZones: storeSource,
         selectedZone: {
-            building: 4,
+            building: 1,
             floor: 1,
+            areaId: false,
             minimumSuitableArea: 1,
             theMostSuitableArea: 1,
         },
@@ -38,6 +39,9 @@ export default new Vuex.Store({
         },
         updateSelectedFloor(state, newValue) {
             state.selectedZone.floor = newValue;
+        },
+        updateSelectedArea(state, newValue) {
+            state.selectedZone.areaId = newValue;
         }
     },
 
