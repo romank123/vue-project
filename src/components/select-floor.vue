@@ -1,8 +1,10 @@
 <template>
   <div class="page-wrapper">
     <h1>Выберете этаж</h1>
+    <h3>Выбранный корпус {{selectedBuilding}}</h3>
+    <h3>Доступные этажи: {{possibleFloorArr.join(' , ')}}</h3>
     <div class="page">
-      <floorSсhemeSVG class="floorSсheme" ref="floorSсheme" @mouseover="checkHover($event)"/>
+      <floorSсhemeSVG class="floorSсheme" ref="floorSсheme" @mouseover="updateFloorByHover($event)"/>
       <div class="floor-panel">
         <button @click="incrementFloor">↑</button>
         <input type="number" :value="selectedFloor" min="1" max="21" />
@@ -17,7 +19,7 @@
 </template>
 
 <script>
-import floorSсhemeSVG from "../assets/svg/svg-floor-sheme.svg";
+import floorSсhemeSVG from "../assets/svg/svg-floor-sheme-new.svg";
 
 export default {
   name: "selectFloor",
@@ -27,41 +29,61 @@ export default {
   data: function () {
     return {
       svgFloorEls: {},
-      selectedFloor: "",
+      possibleFloorElArr: [],
+      possibleFloorArr: [],
     };
   },
   mounted() {
+    //наполним из svg узлов переменные possibleFloorElArr и possibleFloorArr возможными для выбора этажами
     this.svgFloorEls = this.$refs.floorSсheme.getElementsByClassName("floor");
-  },
+    this.svgFloorEls.forEach(el => {
+      if(el.dataset.buildingNumber == this.$store.state.selectedZone.building) 
+         this.possibleFloorElArr.push(el);
+      });
+    this.possibleFloorElArr.sort((a,b)=>a.dataset.floorNumber-b.dataset.floorNumber);
+    this.possibleFloorElArr.forEach(el => {
+      this.possibleFloorArr.push(el.dataset.floorNumber)
+    });
+    //запишем в стор самый нижний из возможных этажей
+    this.$store.commit("updateSelectedFloor",this.possibleFloorArr[0])
+  },   
   computed: {
+    selectedBuilding() {
+      return this.$store.state.selectedZone.building;
+    },
+    selectedFloor() {
+      return this.$store.state.selectedZone.floor;
+    },
   },
   methods: {
     getFloorElByNumber: function (number) {
       let result;
       this.svgFloorEls.forEach((el) => {
-        if (el.dataset.floorNumber == number) {
+        if (el.dataset.floorNumber == number && el.dataset.buildingNumber == this.selectedBuilding) {
           result = el;
         }
       });
       return result;
     },
     incrementFloor() {
-      if (this.selectedFloor < 21) this.selectedFloor++;
+      let oldValueIndex = this.possibleFloorArr.findIndex(currentValue => currentValue == this.selectedFloor);
+      if (oldValueIndex < this.possibleFloorArr.length-1) this.$store.commit("updateSelectedFloor",this.possibleFloorArr[oldValueIndex + 1])
       else return;
     },
     decrementFloor() {
-      if (this.selectedFloor > 1) this.selectedFloor--;
+      let oldValueIndex = this.possibleFloorArr.findIndex(currentValue => currentValue == this.selectedFloor);
+      if (oldValueIndex > 0) this.$store.commit("updateSelectedFloor",this.possibleFloorArr[oldValueIndex - 1])
       else return;
     },
-    checkHover(e) {
-      if (e.relatedTarget.dataset.floorNumber) {
-        this.selectedFloor = e.relatedTarget.dataset.floorNumber
+    updateFloorByHover(e) {
+      let hoverFloor = e.relatedTarget.dataset.floorNumber;
+      if (hoverFloor && this.possibleFloorArr.includes(hoverFloor)) {
+        this.$store.commit("updateSelectedFloor", hoverFloor)
       }
     }
   },
   watch: {
     selectedFloor: function () {
-      if (this.selectedFloor >= 1 && this.selectedFloor <= 21) {
         this.svgFloorEls.forEach((el) =>
           el.setAttribute("fill", "transparent")
         );
@@ -69,7 +91,7 @@ export default {
           "fill",
           "#3498DB"
         );
-      }
+
     },
   },
 };

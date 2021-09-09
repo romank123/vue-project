@@ -101,7 +101,6 @@ export default {
         this.$store.commit("updateSelectedBuilding", e.target.value);
     },
     checkHover: function(e) {
-        console.log(e.target.dataset.buildingNumber);
         if (e.target.dataset.buildingNumber) {
            this.$store.commit("updateSelectedBuilding", e.target.dataset.buildingNumber);
         } else {

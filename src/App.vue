@@ -20,7 +20,7 @@ export default {
   data: function () {
     return {
       step: {
-        current: 2,
+        current: 0,
         min: 0,
         max: 4,
       },
