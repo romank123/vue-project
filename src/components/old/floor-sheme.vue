@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 .floorSheme {
-  max-width: 90vw;
+  max-width: 100vw;
   max-height: 100vh;
 }
 .floorSheme .zone:hover {

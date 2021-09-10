@@ -1,11 +1,11 @@
 <template>
   <div class="page-wrapper">
-    <h1>Вариант отделки стены</h1>
+    <h1>Вариант отделки потолок</h1>
     <div class="options-group">
       <input type="checkbox" id="scales" />
-      <label for="scales">Серая краска</label> <br />
+      <label for="scales">Светлый</label> <br />
       <input type="checkbox" id="scales" />
-      <label for="scales">Декоративная шпатлёвка</label> <br />
+      <label for="scales">Темный</label> <br />
     </div>
 
     <div class="control-panel">

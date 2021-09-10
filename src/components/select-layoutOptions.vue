@@ -1,11 +1,15 @@
 <template>
   <div class="page-wrapper">
-    <h1>Вариант отделки стены</h1>
+    <h1>Вариант планировки</h1>
     <div class="options-group">
       <input type="checkbox" id="scales" />
-      <label for="scales">Серая краска</label> <br />
+      <label for="scales">1 кабинет и Open Space</label> <br />
       <input type="checkbox" id="scales" />
-      <label for="scales">Декоративная шпатлёвка</label> <br />
+      <label for="scales">3 кабинета и Open Space</label> <br />
+      <input type="checkbox" id="scales" />
+      <label for="scales">Open Space</label> <br />
+      <input type="checkbox" id="scales" />
+      <label for="scales">Кабинетная</label> <br />
     </div>
 
     <div class="control-panel">

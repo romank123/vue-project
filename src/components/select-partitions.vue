@@ -1,11 +1,13 @@
 <template>
   <div class="page-wrapper">
-    <h1>Вариант отделки стены</h1>
+    <h1>Вариант отделки перегородки</h1>
     <div class="options-group">
       <input type="checkbox" id="scales" />
-      <label for="scales">Серая краска</label> <br />
+      <label for="scales">Гипрок</label> <br />
       <input type="checkbox" id="scales" />
-      <label for="scales">Декоративная шпатлёвка</label> <br />
+      <label for="scales">Оргстекло</label> <br />
+      <input type="checkbox" id="scales" />
+      <label for="scales">Гипрок + Оргстекло</label> <br />
     </div>
 
     <div class="control-panel">

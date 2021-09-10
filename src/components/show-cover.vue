@@ -1,6 +1,6 @@
 <template>
   <div class="layout-wrapper">
-      <div>
+      <div class="content-wrapper">
         <h1 class="header">Собери свой идеальный офис</h1>
         <button class="button" @click="$emit('incrementStep')">Собрать офис</button>
       </div>
@@ -25,16 +25,19 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.header {
-    font-family: system-ui;
-    margin: 0;
+h1.header {
+    text-align: left;
+    margin: 0 0 2rem 0;
     color: white;
     font-size: 5rem;
     text-shadow: 2px 2px 3px grey;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .button {
@@ -56,5 +59,8 @@ export default {
     justify-content: center;
 }
 
+.content-wrapper {
+  width: 70%;
+}
 
 </style>

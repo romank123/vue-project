@@ -4,8 +4,8 @@
 
     <div class="vue-range-slider__wrapper">
       <div class="vue-range-slider__tooltips">
-        <!-- <span> от {{ smallestArea }}м² </span> -->
-        <!-- <span> до {{ biggestArea }}м² </span> -->
+        <span class="text"> от {{ smallestArea }}м² </span>
+        <span class="text"> до {{ biggestArea }}м² </span>
       </div>
 
       <vue-range-slider
@@ -22,7 +22,8 @@
         @slide-end="updateSelectedValue($event)"
       >
       </vue-range-slider>
-      <p>{{ countOfSelectedZones }} свободных офисов есть с данной площадью</p>
+      <!-- пока выключил потому что нету данных по каждомуи офису -->
+      <!-- <p>{{ countOfSelectedZones }} свободных офисов есть с данной площадью</p> -->
       <div class="control-panel">
         <button class="button" @click="$emit('decrementStep')">Назад</button>
         <button class="button" @click="$emit('incrementStep')">Далее</button>
@@ -69,6 +70,9 @@ export default {
     },
   },
   created() {
+    VueRangeSlider.methods.handleKeyup = ()=> console.log;
+    VueRangeSlider.methods.handleKeydown = ()=> console.log;
+
     this.min = this.smallestArea;
     this.max = this.biggestArea;
     this.bgStyle = {
@@ -84,6 +88,9 @@ export default {
     };
     this.formatter = (value) => `${value}м²`;
   },
+  beforeUnmount() {
+    // this.$refs.slider.methods;
+  }
 };
 </script>
 
@@ -94,7 +101,7 @@ export default {
 }
 
 .vue-range-slider__wrapper {
-  max-width: 90vw;
+  /* max-width: 90vw; */
   margin: auto;
 }
 

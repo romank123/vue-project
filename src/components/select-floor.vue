@@ -99,18 +99,14 @@ export default {
 
 
 <style scoped>
-h1 {
-  text-align: center;
-}
-
-.page-wrapper {
+/* .page-wrapper {
   width: 90vw;
   height: 90vh;
-}
+} */
 
 .page {
   display: flex;
-  height: 70vh;
+  height: 50vh;
 }
 
 .floorSсheme {

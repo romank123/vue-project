@@ -1,9 +1,9 @@
 <template>
   <div class="page-wrapper">
     <h1>Выберете помещение</h1>
-    <h3>Выбранный корпус {{ selectedBuilding }}</h3>
-    <h3>Выбранный этаж: {{ selectedFloor }}</h3>
-    <h3>Выбранное помещение: {{ selectedArea }}</h3>
+    <p>Выбранный корпус {{ selectedBuilding }}</p>
+    <p>Выбранный этаж: {{ selectedFloor }}</p>
+    <p>Выбранное помещение: {{ selectedArea }}</p>
     <component :is="getCurrentFloorSheme" ref="floorSheme" class="floorSheme" @click="updateCurrentArea($event)"/>
     <div class="control-panel">
       <button class="button" @click="$emit('decrementStep')">Назад</button>
@@ -28,7 +28,7 @@ export default {
       return this.$store.state.selectedZone.floor;
     },
     selectedArea() {
-      return this.$store.state.selectedZone.areaId;
+      return this.$store.state.selectedZone.areaId ? this.$store.state.selectedZone.areaId : "не выбрано";
     },
     getCurrentFloorSheme: function () {
       let currentFloorNumber = this.floorNumber;
@@ -47,11 +47,13 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+
 .floorSheme {
-  max-width: 70vw;
-  max-height: 70vh;
+  max-width: 50vw;
+  max-height: 50vh;
   margin: auto;
 }
+
 .floorSheme .zone:hover {
   fill-opacity: 1;
 }

@@ -2,18 +2,23 @@
   <div class="page-wrapper">
     <h1>Выберете дополнительные опции</h1>
     <div class="options-group">
-      <input type="checkbox" id="scales" />
-      <label for="scales">Интернет</label> <br />
-      <input type="checkbox" id="scales" />
-      <label for="scales">Телефония</label> <br />
-      <input type="checkbox" id="scales" />
-      <label for="scales">Доп освещение</label> <br />
-      <input type="checkbox" id="scales" /><label for="scales">Скуд</label>
-      <br />
-      <input type="checkbox" id="scales" />
+      <input type="checkbox" />
+      <label>Интернет</label> <br />
+
+      <input type="checkbox" />
+      <label>Телефония</label> <br />
+
+      <input type="checkbox" />
+      <label>Доп освещение</label> <br />
+
+      <input type="checkbox" />
+      <label for="scales">Скуд</label> <br />
+
+      <input type="checkbox" />
       <label for="scales">Система видеонаблюдения</label> <br />
-      <input type="checkbox" id="scales" /> <label for="scales">Кухня</label>
-      <br />
+
+      <input type="checkbox" />
+      <label>Кухня</label> <br />
     </div>
 
     <div class="control-panel">
@@ -25,8 +30,21 @@
 
 
 <style>
-.page-wrapper {
+/* .page-wrapper {
   width: 90vw;
   height: 90vh;
+} */
+
+.options-group,
+.options-group label {
+  font-size: 30px;
+}
+
+.options-group input[type="checkbox"] {
+  font-size: 30px;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  vertical-align: 3px;
 }
 </style>
