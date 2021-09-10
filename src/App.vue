@@ -6,7 +6,7 @@
     <select-floor     @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 3"/>
     <select-area      @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 4"/>
     <select-options   @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 5"/>
-    <select-walls   @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 6"/>
+    <select-walls     @incrementStep="incrementStep" @decrementStep="decrementStep" v-if="step.current === 6"/>
   </div>
 </template>
 
