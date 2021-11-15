@@ -1,5 +1,7 @@
 # sea-capital-wizard 11
 
+[See demo](https://romank123.github.io/vue-project/dist/)
+
 ## Project setup
 
 ```
