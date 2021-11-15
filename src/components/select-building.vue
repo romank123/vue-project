@@ -2,7 +2,7 @@
   <div class="page-wrapper">
     <h1>Выберете корпус</h1>
     <div class="page">
-      <svgBuildingSheme ref="buildingSсheme" @mouseover="checkHover($event)"/>
+      <svgBuildingSheme ref="buildingSсheme" @mouseover="checkHover($event)" />
       <div class="floor-panel" ref="radioGroup">
         <div>
           <input
@@ -78,34 +78,44 @@ export default {
   },
   mounted() {
     let svgEl = this.$refs.buildingSсheme;
-    this.svgBuildingElsArray[0]=false;//для простоты нумерации нулевого здания у нас не будет  
-    svgEl.getElementsByClassName("building").forEach((el,i) => {
-        this.svgBuildingElsArray[i+1]=svgEl.querySelector(`[data-building-number="${i+1}"]`);
+    this.svgBuildingElsArray[0] = false; //для простоты нумерации нулевого здания у нас не будет
+    svgEl.getElementsByClassName("building").forEach((el, i) => {
+      this.svgBuildingElsArray[i + 1] = svgEl.querySelector(
+        `[data-building-number="${i + 1}"]`
+      );
     });
 
-    this.svgBuildingElsArray[this.getSelectedBuilding].setAttribute("fill" , "#3498DB");
-    this.$refs.radioGroup.querySelector(`[value="${this.getSelectedBuilding}"]`).checked = true;
+    this.svgBuildingElsArray[this.getSelectedBuilding].setAttribute(
+      "fill",
+      "#3498DB"
+    );
+    this.$refs.radioGroup.querySelector(
+      `[value="${this.getSelectedBuilding}"]`
+    ).checked = true;
   },
   watch: {
-      getSelectedBuilding: function(newVal, oldVal) {
-        // this.svgBuildingElsArray.forEach(el=>{if(el) el.setAttribute("fill" , "transparent")});
-        //if(this.svgBuildingElsArray[newVal] == undefined) debugger;
-        
-        this.svgBuildingElsArray[oldVal].setAttribute("fill" , "transparent");
-        this.svgBuildingElsArray[newVal].setAttribute("fill" , "#3498DB");
-        this.$refs.radioGroup.querySelector(`[value="${newVal}"]`).checked = true;
-      }
+    getSelectedBuilding: function (newVal, oldVal) {
+      // this.svgBuildingElsArray.forEach(el=>{if(el) el.setAttribute("fill" , "transparent")});
+      //if(this.svgBuildingElsArray[newVal] == undefined) debugger;
+
+      this.svgBuildingElsArray[oldVal].setAttribute("fill", "transparent");
+      this.svgBuildingElsArray[newVal].setAttribute("fill", "#3498DB");
+      this.$refs.radioGroup.querySelector(`[value="${newVal}"]`).checked = true;
+    },
   },
   methods: {
     updateStoreOnRadioButton: function (e) {
-        this.$store.commit("updateSelectedBuilding", e.target.value);
+      this.$store.commit("updateSelectedBuilding", e.target.value);
     },
-    checkHover: function(e) {
-        if (e.target.dataset.buildingNumber) {
-           this.$store.commit("updateSelectedBuilding", e.target.dataset.buildingNumber);
-        } else {
-            return
-        }
+    checkHover: function (e) {
+      if (e.target.dataset.buildingNumber) {
+        this.$store.commit(
+          "updateSelectedBuilding",
+          e.target.dataset.buildingNumber
+        );
+      } else {
+        return;
+      }
     },
   },
 };

@@ -15,7 +15,6 @@
   </div>
 </template>
 
-
 <style>
 /* .page-wrapper {
   width: 90vw;

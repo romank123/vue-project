@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p>выбранная зона {{selectedZone}}</p>
-    <component 
-    :is="getCurrentFloorSheme" 
-    ref="floorSheme" 
-    class="floorSheme"
-    v-on:click="checkClickZone"
+    <p>выбранная зона {{ selectedZone }}</p>
+    <component
+      :is="getCurrentFloorSheme"
+      ref="floorSheme"
+      class="floorSheme"
+      v-on:click="checkClickZone"
     />
   </div>
 </template>
@@ -28,15 +28,14 @@ export default {
   },
   methods: {
     checkClickZone: function (event) {
-      this.selectedZone = event.target.id
+      this.selectedZone = event.target.id;
     },
     debug: function (msg) {
       console.log(msg);
-    }
-  }
+    },
+  },
 };
 </script>
-
 
 <style scoped>
 .floorSheme {

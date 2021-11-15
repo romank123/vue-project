@@ -4,7 +4,12 @@
     <p>Выбранный корпус {{ selectedBuilding }}</p>
     <p>Выбранный этаж: {{ selectedFloor }}</p>
     <p>Выбранное помещение: {{ selectedArea }}</p>
-    <component :is="getCurrentFloorSheme" ref="floorSheme" class="floorSheme" @click="updateCurrentArea($event)"/>
+    <component
+      :is="getCurrentFloorSheme"
+      ref="floorSheme"
+      class="floorSheme"
+      @click="updateCurrentArea($event)"
+    />
     <div class="control-panel">
       <button class="button" @click="$emit('decrementStep')">Назад</button>
       <button class="button" @click="$emit('incrementStep')">Далее</button>
@@ -16,9 +21,12 @@
 export default {
   name: "selectArea",
   methods: {
-      updateCurrentArea: function(e) {
-          this.$store.commit("updateSelectedArea", e.target.closest(".areaItem-wrapper").id );
-      }
+    updateCurrentArea: function (e) {
+      this.$store.commit(
+        "updateSelectedArea",
+        e.target.closest(".areaItem-wrapper").id
+      );
+    },
   },
   computed: {
     selectedBuilding() {
@@ -28,7 +36,9 @@ export default {
       return this.$store.state.selectedZone.floor;
     },
     selectedArea() {
-      return this.$store.state.selectedZone.areaId ? this.$store.state.selectedZone.areaId : "не выбрано";
+      return this.$store.state.selectedZone.areaId
+        ? this.$store.state.selectedZone.areaId
+        : "не выбрано";
     },
     getCurrentFloorSheme: function () {
       let currentFloorNumber = this.floorNumber;
@@ -59,6 +69,6 @@ export default {
 }
 
 .areaItem-wrapper:hover {
-    stroke-opacity:1;
+  stroke-opacity: 1;
 }
 </style>

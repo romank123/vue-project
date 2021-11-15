@@ -70,8 +70,8 @@ export default {
     },
   },
   created() {
-    VueRangeSlider.methods.handleKeyup = ()=> console.log;
-    VueRangeSlider.methods.handleKeydown = ()=> console.log;
+    VueRangeSlider.methods.handleKeyup = () => console.log;
+    VueRangeSlider.methods.handleKeydown = () => console.log;
 
     this.min = this.smallestArea;
     this.max = this.biggestArea;
@@ -90,7 +90,7 @@ export default {
   },
   beforeUnmount() {
     // this.$refs.slider.methods;
-  }
+  },
 };
 </script>
 

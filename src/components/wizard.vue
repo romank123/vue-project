@@ -25,15 +25,15 @@ export default {
       // maxStep: 3,
     };
   },
-    // saveBuildingNumber: function (number) {
-    //   this.$root.$data.selectedBuilding = number;
-    //   this.incrementStep();
-    // },
-    // console: function (msg) {
-    //   console.log(msg);
-    // },
+  // saveBuildingNumber: function (number) {
+  //   this.$root.$data.selectedBuilding = number;
+  //   this.incrementStep();
+  // },
+  // console: function (msg) {
+  //   console.log(msg);
+  // },
   mounted() {
     console.log(this.$root.$data.store);
-  }
+  },
 };
 </script>
