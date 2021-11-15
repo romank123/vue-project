@@ -1,0 +1,2301 @@
+[{
+        "zoneId": 0,
+        "area": 54,
+        "floor": 8,
+        "building": 1,
+        "zoneNumber": 33,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 1,
+        "area": 11,
+        "floor": 10,
+        "building": 1,
+        "zoneNumber": 2,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 2,
+        "area": 57,
+        "floor": 16,
+        "building": 2,
+        "zoneNumber": 34,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 3,
+        "area": 64,
+        "floor": 5,
+        "building": 2,
+        "zoneNumber": 17,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 4,
+        "area": 74,
+        "floor": 6,
+        "building": 1,
+        "zoneNumber": 49,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 5,
+        "area": 69,
+        "floor": 13,
+        "building": 1,
+        "zoneNumber": 19,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 6,
+        "area": 78,
+        "floor": 20,
+        "building": 1,
+        "zoneNumber": 37,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 7,
+        "area": 18,
+        "floor": 18,
+        "building": 2,
+        "zoneNumber": 43,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 8,
+        "area": 41,
+        "floor": 9,
+        "building": 1,
+        "zoneNumber": 44,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 4,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 9,
+        "area": 77,
+        "floor": 17,
+        "building": 2,
+        "zoneNumber": 41,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 10,
+        "area": 37,
+        "floor": 15,
+        "building": 1,
+        "zoneNumber": 33,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 11,
+        "area": 92,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 2,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 12,
+        "area": 73,
+        "floor": 15,
+        "building": 2,
+        "zoneNumber": 11,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 13,
+        "area": 77,
+        "floor": 14,
+        "building": 2,
+        "zoneNumber": 47,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 4,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 14,
+        "area": 21,
+        "floor": 20,
+        "building": 1,
+        "zoneNumber": 18,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 15,
+        "area": 88,
+        "floor": 14,
+        "building": 1,
+        "zoneNumber": 26,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 16,
+        "area": 77,
+        "floor": 18,
+        "building": 1,
+        "zoneNumber": 10,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 17,
+        "area": 28,
+        "floor": 12,
+        "building": 2,
+        "zoneNumber": 10,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 18,
+        "area": 49,
+        "floor": 22,
+        "building": 1,
+        "zoneNumber": 19,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 19,
+        "area": 20,
+        "floor": 19,
+        "building": 1,
+        "zoneNumber": 46,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 4,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 20,
+        "area": 48,
+        "floor": 17,
+        "building": 1,
+        "zoneNumber": 26,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 21,
+        "area": 50,
+        "floor": 2,
+        "building": 2,
+        "zoneNumber": 45,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 22,
+        "area": 28,
+        "floor": 19,
+        "building": 2,
+        "zoneNumber": 43,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 23,
+        "area": 53,
+        "floor": 5,
+        "building": 1,
+        "zoneNumber": 15,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 24,
+        "area": 75,
+        "floor": 10,
+        "building": 2,
+        "zoneNumber": 27,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 25,
+        "area": 89,
+        "floor": 16,
+        "building": 1,
+        "zoneNumber": 39,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 26,
+        "area": 12,
+        "floor": 10,
+        "building": 2,
+        "zoneNumber": 8,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 27,
+        "area": 82,
+        "floor": 2,
+        "building": 2,
+        "zoneNumber": 15,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 28,
+        "area": 97,
+        "floor": 17,
+        "building": 1,
+        "zoneNumber": 36,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 29,
+        "area": 84,
+        "floor": 15,
+        "building": 2,
+        "zoneNumber": 35,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 4,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 30,
+        "area": 57,
+        "floor": 4,
+        "building": 1,
+        "zoneNumber": 15,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 31,
+        "area": 98,
+        "floor": 12,
+        "building": 1,
+        "zoneNumber": 32,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 32,
+        "area": 45,
+        "floor": 15,
+        "building": 1,
+        "zoneNumber": 42,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 33,
+        "area": 32,
+        "floor": 21,
+        "building": 2,
+        "zoneNumber": 26,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 34,
+        "area": 80,
+        "floor": 3,
+        "building": 2,
+        "zoneNumber": 34,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 35,
+        "area": 94,
+        "floor": 2,
+        "building": 2,
+        "zoneNumber": 49,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 36,
+        "area": 83,
+        "floor": 21,
+        "building": 1,
+        "zoneNumber": 4,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 37,
+        "area": 45,
+        "floor": 9,
+        "building": 1,
+        "zoneNumber": 17,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 38,
+        "area": 80,
+        "floor": 19,
+        "building": 2,
+        "zoneNumber": 38,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 39,
+        "area": 76,
+        "floor": 2,
+        "building": 1,
+        "zoneNumber": 7,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 40,
+        "area": 80,
+        "floor": 6,
+        "building": 2,
+        "zoneNumber": 33,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 41,
+        "area": 62,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 45,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 42,
+        "area": 95,
+        "floor": 14,
+        "building": 2,
+        "zoneNumber": 8,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 43,
+        "area": 28,
+        "floor": 10,
+        "building": 2,
+        "zoneNumber": 24,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 44,
+        "area": 94,
+        "floor": 21,
+        "building": 1,
+        "zoneNumber": 24,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 45,
+        "area": 23,
+        "floor": 20,
+        "building": 2,
+        "zoneNumber": 32,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 46,
+        "area": 40,
+        "floor": 22,
+        "building": 1,
+        "zoneNumber": 18,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 47,
+        "area": 55,
+        "floor": 15,
+        "building": 1,
+        "zoneNumber": 30,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 48,
+        "area": 16,
+        "floor": 5,
+        "building": 1,
+        "zoneNumber": 33,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 49,
+        "area": 73,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 19,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 50,
+        "area": 30,
+        "floor": 8,
+        "building": 1,
+        "zoneNumber": 39,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 51,
+        "area": 26,
+        "floor": 20,
+        "building": 2,
+        "zoneNumber": 33,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 52,
+        "area": 53,
+        "floor": 6,
+        "building": 2,
+        "zoneNumber": 25,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 53,
+        "area": 37,
+        "floor": 2,
+        "building": 1,
+        "zoneNumber": 1,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 54,
+        "area": 96,
+        "floor": 6,
+        "building": 2,
+        "zoneNumber": 4,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 55,
+        "area": 62,
+        "floor": 5,
+        "building": 1,
+        "zoneNumber": 38,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 56,
+        "area": 18,
+        "floor": 10,
+        "building": 2,
+        "zoneNumber": 32,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 57,
+        "area": 15,
+        "floor": 16,
+        "building": 1,
+        "zoneNumber": 6,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 58,
+        "area": 40,
+        "floor": 5,
+        "building": 1,
+        "zoneNumber": 11,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 59,
+        "area": 36,
+        "floor": 12,
+        "building": 1,
+        "zoneNumber": 48,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 60,
+        "area": 89,
+        "floor": 7,
+        "building": 1,
+        "zoneNumber": 35,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 61,
+        "area": 62,
+        "floor": 15,
+        "building": 1,
+        "zoneNumber": 12,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 62,
+        "area": 83,
+        "floor": 9,
+        "building": 2,
+        "zoneNumber": 27,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 63,
+        "area": 86,
+        "floor": 19,
+        "building": 1,
+        "zoneNumber": 8,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 64,
+        "area": 18,
+        "floor": 12,
+        "building": 1,
+        "zoneNumber": 17,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 65,
+        "area": 34,
+        "floor": 14,
+        "building": 2,
+        "zoneNumber": 43,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 66,
+        "area": 44,
+        "floor": 3,
+        "building": 1,
+        "zoneNumber": 31,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 67,
+        "area": 71,
+        "floor": 1,
+        "building": 2,
+        "zoneNumber": 9,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 68,
+        "area": 26,
+        "floor": 13,
+        "building": 2,
+        "zoneNumber": 17,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 69,
+        "area": 39,
+        "floor": 17,
+        "building": 1,
+        "zoneNumber": 48,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 70,
+        "area": 55,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 1,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 71,
+        "area": 52,
+        "floor": 8,
+        "building": 1,
+        "zoneNumber": 37,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 72,
+        "area": 78,
+        "floor": 16,
+        "building": 2,
+        "zoneNumber": 4,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 73,
+        "area": 89,
+        "floor": 18,
+        "building": 2,
+        "zoneNumber": 7,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 74,
+        "area": 30,
+        "floor": 19,
+        "building": 1,
+        "zoneNumber": 16,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 1,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 75,
+        "area": 59,
+        "floor": 13,
+        "building": 1,
+        "zoneNumber": 30,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 76,
+        "area": 99,
+        "floor": 1,
+        "building": 1,
+        "zoneNumber": 40,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 0,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 77,
+        "area": 54,
+        "floor": 3,
+        "building": 2,
+        "zoneNumber": 21,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 78,
+        "area": 50,
+        "floor": 14,
+        "building": 1,
+        "zoneNumber": 31,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 79,
+        "area": 63,
+        "floor": 21,
+        "building": 1,
+        "zoneNumber": 28,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 80,
+        "area": 79,
+        "floor": 19,
+        "building": 2,
+        "zoneNumber": 16,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 8,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 81,
+        "area": 87,
+        "floor": 16,
+        "building": 1,
+        "zoneNumber": 17,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 82,
+        "area": 37,
+        "floor": 4,
+        "building": 2,
+        "zoneNumber": 3,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 83,
+        "area": 86,
+        "floor": 18,
+        "building": 1,
+        "zoneNumber": 48,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 4,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 84,
+        "area": 93,
+        "floor": 8,
+        "building": 2,
+        "zoneNumber": 5,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 5,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 85,
+        "area": 67,
+        "floor": 20,
+        "building": 2,
+        "zoneNumber": 16,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 86,
+        "area": 42,
+        "floor": 16,
+        "building": 2,
+        "zoneNumber": 43,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 87,
+        "area": 58,
+        "floor": 20,
+        "building": 1,
+        "zoneNumber": 41,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 88,
+        "area": 67,
+        "floor": 5,
+        "building": 2,
+        "zoneNumber": 32,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 89,
+        "area": 16,
+        "floor": 9,
+        "building": 1,
+        "zoneNumber": 3,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 90,
+        "area": 43,
+        "floor": 17,
+        "building": 1,
+        "zoneNumber": 30,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 4,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 91,
+        "area": 52,
+        "floor": 9,
+        "building": 1,
+        "zoneNumber": 14,
+        "extraOptions": {
+            "internet": false,
+            "phone": true,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 92,
+        "area": 37,
+        "floor": 21,
+        "building": 1,
+        "zoneNumber": 37,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 93,
+        "area": 56,
+        "floor": 16,
+        "building": 1,
+        "zoneNumber": 26,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 94,
+        "area": 67,
+        "floor": 6,
+        "building": 1,
+        "zoneNumber": 7,
+        "extraOptions": {
+            "internet": true,
+            "phone": true,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 95,
+        "area": 67,
+        "floor": 11,
+        "building": 1,
+        "zoneNumber": 9,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": false,
+            "skud": true,
+            "cctv": false,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "светлый ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 2,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    },
+    {
+        "zoneId": 96,
+        "area": 47,
+        "floor": 19,
+        "building": 2,
+        "zoneNumber": 18,
+        "extraOptions": {
+            "internet": true,
+            "phone": false,
+            "extraLighting": true,
+            "skud": false,
+            "cctv": false,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 7,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 97,
+        "area": 77,
+        "floor": 15,
+        "building": 1,
+        "zoneNumber": 45,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": false
+        },
+        "decorationOptions": {
+            "walls": "серая краска",
+            "flooring": "темный ковролин",
+            "ceiling": "тёмный",
+            "layoutOptionsCabineCount": 6,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "оргстекло"
+        }
+    },
+    {
+        "zoneId": 98,
+        "area": 28,
+        "floor": 17,
+        "building": 1,
+        "zoneNumber": 39,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": false,
+            "skud": false,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "светлый ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 9,
+            "layoutOptionsOpenSpace": true,
+            "officePartitions": "гипрок"
+        }
+    },
+    {
+        "zoneId": 99,
+        "area": 66,
+        "floor": 9,
+        "building": 1,
+        "zoneNumber": 18,
+        "extraOptions": {
+            "internet": false,
+            "phone": false,
+            "extraLighting": true,
+            "skud": true,
+            "cctv": true,
+            "kitchen": true
+        },
+        "decorationOptions": {
+            "walls": "декоративная шпатлёвка",
+            "flooring": "темный ковролин",
+            "ceiling": "светлый",
+            "layoutOptionsCabineCount": 3,
+            "layoutOptionsOpenSpace": false,
+            "officePartitions": "гипрок c оргстеклом"
+        }
+    }
+]
